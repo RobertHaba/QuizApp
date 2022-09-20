@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+.icon-xs {
+  @apply w-2.5 h-2.5;
+}
+.icon-sm {
+  @apply w-4 h-4;
+}
+
+.icon {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@tailwind utilities;
